@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color:rgb(150, 100, 255);
+}
+p{
+    text-align: right;
+    line-height: 2em;
+    /* 줄간격 */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Style</title>
+    <style>
+        img{
+            display: block;
+            margin: 20px;
+            /* img 태그는 기본은 수평인데 block인 경우 수직 배치 */
+        }
+        .moon{
+            width: 50%;
+        }
+        .bird{
+            width: 50%;
+        }
+        .blur{
+            display: none;
+            /* igm 숨기기는 display: none 사용 */
+        }
+    </style>
+</head>
+<body>
+    <img class="blur" src="img/bg3.jpg" alt="blur">
+    <img class="bird" src="img/bg2.jpg" alt="bird">
+    <img class="moon" src="img/bg5.jpg" alt="moon">
+</body>
+</html>

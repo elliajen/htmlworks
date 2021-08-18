@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이퍼링크 예제</title>
+    <!-- 교제 113p -->
+    <style>
+        body{
+            background-color: rgb(100, 100, 200);
+        }
+        h2{
+            color: white;
+        }
+        a{
+            color: rgb(200, 180, 0);
+
+        }
+        a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- bgcolor="skyblue"
+        bgcolor 은 html에서 잘 사용안하고 주로 css에서 지정을 해준다. 일단 임시로 작성해 놓은 것 -->
+    <nav>
+    <a href="./index.html">Home</a>
+    </nav>
+    <h2>이미지 링크 만들기</h2>
+    <a href="http://www.president.go.kr/"><img src="images/logo.png" alt="청와대 로고" width="130" height="68"></a>
+    <h2>텍스트 링크 만들기</h2>
+    <a href="http://www.president.go.kr/" target="_blank">청와대 홈페이지</a><br>
+    <!-- 링크 지정되기 전에는 <a href="#"으로 표기한다. -->
+    <!-- _blank 는 새창으로 열린다. -->
+    <a href="http://www.naver.com" target="_blank">네이버</a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Radius Style</title>
+    <style>
+        div{
+            margin: 30px;
+            display: inline-block;
+            /* inline 수평배치 */
+            /* 속성을 바꿔줄때는 inline-block을 사용 */
+        }
+        .img1{
+            border-radius: 30px;
+            /* px은 반지름의 크기 */
+        }
+        .img2{
+            border-radius: 30%;
+            /* 해당 요소의 크기의 30%(현재는 이미지) -> 300px의 30%*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="img1" src="img/2.jpg" alt="grandfather">
+    </div>
+    <div>
+        <img class="img2" src="img/2.jpg" alt="grandfather">
+    </div>
+</body>
+</html>

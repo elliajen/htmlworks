@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>표 만들기</title>
+        <style>
+            table, th, td{
+                /* border: 2px solid #3a3a3a; */
+                border-width: 0.05px;
+                border-style: dotted;
+                border-color: cadetblue;
+                border-collapse: collapse;
+                margin: 20px;
+            }
+            th, td{
+                padding: 10px 20px;
+                /* 시계방향으로 top right bottom left 순서대로 */
+                /* 중복일때는 생략 가능 */
+            }
+            caption{
+                margin-bottom: 10px;
+                /* 개체끼리의 간격 margin */
+            }
+            thead{
+                background-color: #738d73;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>프로축구 경기 일정</caption>
+            <thead>
+                <tr>
+                    <th>구단</th>
+                    <th>경기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>울산</td>
+                    <td>울산 vs 인천</td>
+                </tr>
+                <tr>
+                    <td>부산</td>
+                    <td>부산 vs 대전</td>
+                </tr>
+                <tr>
+                    <td>서울</td>
+                    <td>서울 vs 전북</td>
+                </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
