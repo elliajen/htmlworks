@@ -1,0 +1,21 @@
+/* content 스타일 */
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    width: 800px;
+    height: 500px;
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    font-size: 120px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    text-shadow: 2px 2px 5px#000;
+}

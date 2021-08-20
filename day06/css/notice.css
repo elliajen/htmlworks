@@ -8,6 +8,7 @@
     padding: 15px;
     margin: 0 auto;
     background-image: url(../img/bg5.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     color:aliceblue
 }

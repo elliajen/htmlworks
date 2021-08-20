@@ -1,0 +1,29 @@
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+.bg1{
+    background: url(../img/bg.jpg) no-repeat;
+}
+.bg2{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 200px;
+    /* 새로 크기는 비율로 맞춰짐 */
+}
+.bg3{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 80%;
+    /* 박스크기(300px)의 80%임 */
+}
+.bg4{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: contain;
+    /* bg의 원사이즈가 박스크기에 맞춰 고정비율로 줄여져 보인다. */
+}
+.bg5{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    /* 이미지의 비율이 고정된체로 박스크기에 맞춰 꽉채워 보여진다. */
+}

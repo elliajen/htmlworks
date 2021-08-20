@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        div.a{
+            width: 150px;
+            height: 80px;
+            background-color: blueviolet;
+        }
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: blueviolet;
+            /* transfor : rotate(-deg(각도)회전) */
+        }
+        div.b:hover{
+            transform: rotate(60deg)
+        }
+        
+        div.c{
+            width: 150px;
+            height: 80px;
+            background-color: blueviolet;
+            /* transfor : translateX(-px이동) */
+            transform: translateX(50px)
+        }
+        div.d{
+            width: 150px;
+            height: 80px;
+            background-color: blueviolet;
+            /* transfor : scaleY(축소,확대) */
+            transform: scaleY(0.8)
+            /* transform: scaleY(1.5) */
+        }
+        div.e{
+            width: 150px;
+            height: 80px;
+            margin: 20px;
+            background-color: blueviolet;
+        }
+        div.e:hover{
+            transform: scale(1.2)
+        }
+    </style>
+</head>
+<body>
+    <h2>변형전 개체</h2>
+    <div class="a">Hello world</div>
+    <h2>Transform: rotate(20deg)</h2>
+    <div class="b">Hello world</div>
+    <h2>Transform: translateX(50px)</h2>
+    <div class="c">Hello world</div>
+    <h2>Transform: scaleY(1.5)</h2>
+    <div class="d">Hello world</div>
+    <h2>hover</h2>
+    <div class="e">Hello world</div>
+</body>
+</html>
