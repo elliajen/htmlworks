@@ -22,13 +22,13 @@ nav ul li a:hover{background-color: rgb(255, 236, 243); transform: scale(1.5)}
 
 /* 본문스타일 */
 section{width:900px; margin: 0 auto;}
-h2{font-size:1.5em;}
+article h2{font-size:1.5em; margin: 50px 0;}
 h3 {font-size:1.0em;}
 p {line-height:20px; font-size:12px;}
 article{
 	border: 1px solid #ccc;
     width: 400px;
-    height: 300px;
+    height: 250px;
     margin: 10px;
     padding: 10px;
 }

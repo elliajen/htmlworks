@@ -1,0 +1,24 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    padding: 10px;
+    line-height: 1.5em;
+}
+#ex1{
+    background-color: thistle;
+    overflow: visible;
+}
+#ex2{
+    background-color: rgb(183, 230, 98);
+    overflow: hidden;
+}
+#ex3{
+    background-color: rgb(236, 147, 74);
+    overflow: auto;
+}
+#ex4{
+    background-color: rgb(255, 153, 196);
+    overflow: scroll;
+}
